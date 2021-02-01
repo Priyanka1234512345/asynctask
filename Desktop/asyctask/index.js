@@ -1,5 +1,5 @@
 var async = require("async");
-function async(tasks, maxNumOfWorkers = n) {
+    function createQueue(tasks, maxNumOfWorkers = n) {
     var taskIndex = 0;
   
     return new Promise(done => {
